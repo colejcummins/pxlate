@@ -52,7 +52,7 @@ public class PixelTester extends JPanel {
 			} catch(InputMismatchException e){ }
 		}
 		
-		PixelTester panel = new PixelTester(new File("pagemillview.jpg"), 6);
+		PixelTester panel = new PixelTester(base, width);
 		System.out.print("Width: " + panel.image.getWidth() + "   Height: " + panel.image.getHeight());
 		test.setSize(panel.x,panel.y);
 		test.setLocation(0,0);
